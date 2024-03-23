@@ -1,0 +1,5 @@
+Flask
+mysql-connector
+flask-restplus
+werkzeug==0.16.1
+
