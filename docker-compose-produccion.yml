@@ -1,7 +1,7 @@
 version: "2"
 services:
   app:
-    image: lnogales/devops_test-app:latest
+    image: lnogales/prueba_pipeline-app:latest
       #build: ./app
     links:
       - db
