@@ -12,4 +12,5 @@ estas fueron:
 - werkzeug==0.16.1
 
 y se modifco el codigo de app.py
-Prueba 1 pipeline prueba-auto-pipeline2-gruby 
+Prueba 1 pipeline prueba-auto-pipeline2-gruby fallo
+Prueba 2 pipeline prueba-auto-pipeline2-gruby 
