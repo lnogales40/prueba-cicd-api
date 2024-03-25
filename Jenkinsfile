@@ -18,8 +18,8 @@ pipeline {
             steps {
                 script {
                     def commitHash = sh(script: 'git rev-parse --short HEAD', returnStdout: true).trim()
-                    sh "docker tag prueba_pipeline-app:latest lnogales/prueba_pipeline-app:latest"
-                    sh "docker tag prueba_pipeline-app:latest lnogales/prueba_pipeline-app:$commitHash"
+                    sh "docker tag prueba-auto-pipeline2-gruby-app:latest lnogales/prueba-auto-pipeline2-gruby-app:latest"
+                    sh "docker tag prueba-auto-pipeline2-gruby-app:latest lnogales/prueba-auto-pipeline2-gruby-app:$commitHash"
                 }
             }
         }
@@ -36,8 +36,8 @@ pipeline {
             steps {
                 script {
                     def commitHash = sh(script: 'git rev-parse --short HEAD', returnStdout: true).trim()
-                    sh "docker push lnogales/prueba_pipeline-app:latest"
-                    sh "docker push lnogales/prueba_pipeline-app:$commitHash"
+                    sh "docker push lnogales/prueba-auto-pipeline2-gruby-app:latest"
+                    sh "docker push lnogales/prueba-auto-pipeline2-gruby-app:$commitHash"
                 }
             }
         }
