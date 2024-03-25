@@ -13,4 +13,5 @@ estas fueron:
 
 y se modifco el codigo de app.py
 Prueba 1 pipeline prueba-auto-pipeline2-gruby fallo
-Prueba 2 pipeline prueba-auto-pipeline2-gruby 
+Prueba 2 pipeline prueba-auto-pipeline2-gruby Funciono
+Prueba 3 pipeline prueba-auto-pipeline2-gruby Funciono
