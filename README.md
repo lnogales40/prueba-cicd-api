@@ -3,7 +3,7 @@
 # Fuente:
 https://github.com/stavshamir/docker-tutorial
 
-Se modifico este repositorio con el objetivo de lograr el acceso atravez del swagger de python
+Se modifico este repositorio con el objetivo de lograr el acceso a traves del swagger de python
 se instalaron otras dependencia necesarias para su funcionamiento.
 estas fueron:
 - Flask
