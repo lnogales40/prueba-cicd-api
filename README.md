@@ -12,3 +12,4 @@ estas fueron:
 - werkzeug==0.16.1
 
 y se modifco el codigo de app.py
+Se procede hacer prueba de construccion automatica 1 desde hithub
