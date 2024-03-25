@@ -67,7 +67,7 @@ pipeline {
                         def exists = sh(script: 'ssh root@137.184.220.75 "[ -d /app/prueba-cicd-api ] && echo exists || echo does_not_exist"', returnStdout: true).trim()
 
                         if (exists == 'exists') {
-                            sh 'ssh -o StrictHostKeyChecking=no root@137.184.220.75 "cd /app/prueba-cicd-api && git checkout feature/test2 && git pull origin feature/test2"'
+                            sh 'ssh -o StrictHostKeyChecking=no root@137.184.220.75 "cd /app/prueba-cicd-api && git pull && git checkout feature/test2"'
                         } else {
                             sh 'ssh -o StrictHostKeyChecking=no root@137.184.220.75 "git clone https://github.com/lnogales40/prueba-cicd-api.git /app/prueba-cicd-api && git checkout feature/test2"'
                         }
