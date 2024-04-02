@@ -23,3 +23,4 @@ Prueba 8 pipeline prueba-auto-pipeline2-gruby Funciono
 Prueba 9 pipeline prueba-auto-pipeline2-gruby Funciono
 Prueba 10 pipeline prueba-auto-pipeline2-gruby Funciono
 Prueba 11 pipeline prueba-auto-pipeline2-gruby Funciono
+Prueba 12 pipeline prueba-auto-pipeline2-gruby Funciono
