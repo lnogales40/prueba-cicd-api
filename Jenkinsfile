@@ -101,10 +101,11 @@ pipeline {
             }
         }
     }
-
     post {
         always {
-            cleanWs()
+            script {
+                sh "rm -rf ${env.WORKSPACE}/*"
+            }
         }
     }
 }
