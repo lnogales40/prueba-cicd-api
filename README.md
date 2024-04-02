@@ -14,3 +14,4 @@ estas fueron:
 y se modifco el codigo de app.py
 Prueba 1 pipeline prueba-auto-pipeline
 Prueba 2 pipeline prueba-auto-pipeline
+Prueba 3 pipeline prueba-auto-pipeline
