@@ -21,3 +21,4 @@ Prueba 6 pipeline prueba-auto-pipeline2-gruby no corrio
 Prueba 7 pipeline prueba-auto-pipeline2-gruby fallo
 Prueba 8 pipeline prueba-auto-pipeline2-gruby Funciono
 Prueba 9 pipeline prueba-auto-pipeline2-gruby Funciono
+Prueba 10 pipeline prueba-auto-pipeline2-gruby Funciono
